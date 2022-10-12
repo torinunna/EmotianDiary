@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		867BBFF528F6F43A00F2C8EB /* EmotionDiaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867BBFF428F6F43A00F2C8EB /* EmotionDiaryApp.swift */; };
+		867BBFF728F6F43A00F2C8EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867BBFF628F6F43A00F2C8EB /* ContentView.swift */; };
+		867BBFF928F6F43B00F2C8EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 867BBFF828F6F43B00F2C8EB /* Assets.xcassets */; };
+		867BBFFC28F6F43B00F2C8EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 867BBFFB28F6F43B00F2C8EB /* Preview Assets.xcassets */; };
+		867BC00628F6F43B00F2C8EB /* EmotionDiaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867BC00528F6F43B00F2C8EB /* EmotionDiaryTests.swift */; };
+		867BC01028F6F43B00F2C8EB /* EmotionDiaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867BC00F28F6F43B00F2C8EB /* EmotionDiaryUITests.swift */; };
+		867BC01228F6F43B00F2C8EB /* EmotionDiaryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867BC01128F6F43B00F2C8EB /* EmotionDiaryUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		867BC00228F6F43B00F2C8EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 867BBFE928F6F43A00F2C8EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 867BBFF028F6F43A00F2C8EB;
+			remoteInfo = EmotionDiary;
+		};
+		867BC00C28F6F43B00F2C8EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 867BBFE928F6F43A00F2C8EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 867BBFF028F6F43A00F2C8EB;
+			remoteInfo = EmotionDiary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		867BBFF128F6F43A00F2C8EB /* EmotionDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmotionDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		867BBFF428F6F43A00F2C8EB /* EmotionDiaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionDiaryApp.swift; sourceTree = "<group>"; };
+		867BBFF628F6F43A00F2C8EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		867BBFF828F6F43B00F2C8EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		867BBFFB28F6F43B00F2C8EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		867BC00128F6F43B00F2C8EB /* EmotionDiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmotionDiaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		867BC00528F6F43B00F2C8EB /* EmotionDiaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionDiaryTests.swift; sourceTree = "<group>"; };
+		867BC00B28F6F43B00F2C8EB /* EmotionDiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmotionDiaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		867BC00F28F6F43B00F2C8EB /* EmotionDiaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionDiaryUITests.swift; sourceTree = "<group>"; };
+		867BC01128F6F43B00F2C8EB /* EmotionDiaryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionDiaryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		867BBFEE28F6F43A00F2C8EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		867BBFFE28F6F43B00F2C8EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		867BC00828F6F43B00F2C8EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		867BBFE828F6F43A00F2C8EB = {
+			isa = PBXGroup;
+			children = (
+				867BBFF328F6F43A00F2C8EB /* EmotionDiary */,
+				867BC00428F6F43B00F2C8EB /* EmotionDiaryTests */,
+				867BC00E28F6F43B00F2C8EB /* EmotionDiaryUITests */,
+				867BBFF228F6F43A00F2C8EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		867BBFF228F6F43A00F2C8EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				867BBFF128F6F43A00F2C8EB /* EmotionDiary.app */,
+				867BC00128F6F43B00F2C8EB /* EmotionDiaryTests.xctest */,
+				867BC00B28F6F43B00F2C8EB /* EmotionDiaryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		867BBFF328F6F43A00F2C8EB /* EmotionDiary */ = {
+			isa = PBXGroup;
+			children = (
+				867BBFF428F6F43A00F2C8EB /* EmotionDiaryApp.swift */,
+				867BBFF628F6F43A00F2C8EB /* ContentView.swift */,
+				867BBFF828F6F43B00F2C8EB /* Assets.xcassets */,
+				867BBFFA28F6F43B00F2C8EB /* Preview Content */,
+			);
+			path = EmotionDiary;
+			sourceTree = "<group>";
+		};
+		867BBFFA28F6F43B00F2C8EB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				867BBFFB28F6F43B00F2C8EB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		867BC00428F6F43B00F2C8EB /* EmotionDiaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				867BC00528F6F43B00F2C8EB /* EmotionDiaryTests.swift */,
+			);
+			path = EmotionDiaryTests;
+			sourceTree = "<group>";
+		};
+		867BC00E28F6F43B00F2C8EB /* EmotionDiaryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				867BC00F28F6F43B00F2C8EB /* EmotionDiaryUITests.swift */,
+				867BC01128F6F43B00F2C8EB /* EmotionDiaryUITestsLaunchTests.swift */,
+			);
+			path = EmotionDiaryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		867BBFF028F6F43A00F2C8EB /* EmotionDiary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 867BC01528F6F43B00F2C8EB /* Build configuration list for PBXNativeTarget "EmotionDiary" */;
+			buildPhases = (
+				867BBFED28F6F43A00F2C8EB /* Sources */,
+				867BBFEE28F6F43A00F2C8EB /* Frameworks */,
+				867BBFEF28F6F43A00F2C8EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmotionDiary;
+			productName = EmotionDiary;
+			productReference = 867BBFF128F6F43A00F2C8EB /* EmotionDiary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		867BC00028F6F43B00F2C8EB /* EmotionDiaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 867BC01828F6F43B00F2C8EB /* Build configuration list for PBXNativeTarget "EmotionDiaryTests" */;
+			buildPhases = (
+				867BBFFD28F6F43B00F2C8EB /* Sources */,
+				867BBFFE28F6F43B00F2C8EB /* Frameworks */,
+				867BBFFF28F6F43B00F2C8EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				867BC00328F6F43B00F2C8EB /* PBXTargetDependency */,
+			);
+			name = EmotionDiaryTests;
+			productName = EmotionDiaryTests;
+			productReference = 867BC00128F6F43B00F2C8EB /* EmotionDiaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		867BC00A28F6F43B00F2C8EB /* EmotionDiaryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 867BC01B28F6F43B00F2C8EB /* Build configuration list for PBXNativeTarget "EmotionDiaryUITests" */;
+			buildPhases = (
+				867BC00728F6F43B00F2C8EB /* Sources */,
+				867BC00828F6F43B00F2C8EB /* Frameworks */,
+				867BC00928F6F43B00F2C8EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				867BC00D28F6F43B00F2C8EB /* PBXTargetDependency */,
+			);
+			name = EmotionDiaryUITests;
+			productName = EmotionDiaryUITests;
+			productReference = 867BC00B28F6F43B00F2C8EB /* EmotionDiaryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		867BBFE928F6F43A00F2C8EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					867BBFF028F6F43A00F2C8EB = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					867BC00028F6F43B00F2C8EB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 867BBFF028F6F43A00F2C8EB;
+					};
+					867BC00A28F6F43B00F2C8EB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 867BBFF028F6F43A00F2C8EB;
+					};
+				};
+			};
+			buildConfigurationList = 867BBFEC28F6F43A00F2C8EB /* Build configuration list for PBXProject "EmotionDiary" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 867BBFE828F6F43A00F2C8EB;
+			productRefGroup = 867BBFF228F6F43A00F2C8EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				867BBFF028F6F43A00F2C8EB /* EmotionDiary */,
+				867BC00028F6F43B00F2C8EB /* EmotionDiaryTests */,
+				867BC00A28F6F43B00F2C8EB /* EmotionDiaryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		867BBFEF28F6F43A00F2C8EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				867BBFFC28F6F43B00F2C8EB /* Preview Assets.xcassets in Resources */,
+				867BBFF928F6F43B00F2C8EB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		867BBFFF28F6F43B00F2C8EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		867BC00928F6F43B00F2C8EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		867BBFED28F6F43A00F2C8EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				867BBFF728F6F43A00F2C8EB /* ContentView.swift in Sources */,
+				867BBFF528F6F43A00F2C8EB /* EmotionDiaryApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		867BBFFD28F6F43B00F2C8EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				867BC00628F6F43B00F2C8EB /* EmotionDiaryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		867BC00728F6F43B00F2C8EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				867BC01228F6F43B00F2C8EB /* EmotionDiaryUITestsLaunchTests.swift in Sources */,
+				867BC01028F6F43B00F2C8EB /* EmotionDiaryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		867BC00328F6F43B00F2C8EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 867BBFF028F6F43A00F2C8EB /* EmotionDiary */;
+			targetProxy = 867BC00228F6F43B00F2C8EB /* PBXContainerItemProxy */;
+		};
+		867BC00D28F6F43B00F2C8EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 867BBFF028F6F43A00F2C8EB /* EmotionDiary */;
+			targetProxy = 867BC00C28F6F43B00F2C8EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		867BC01328F6F43B00F2C8EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		867BC01428F6F43B00F2C8EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		867BC01628F6F43B00F2C8EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EmotionDiary/Preview Content\"";
+				DEVELOPMENT_TEAM = SC2M4P5Z8J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.torinunna.EmotionDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		867BC01728F6F43B00F2C8EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EmotionDiary/Preview Content\"";
+				DEVELOPMENT_TEAM = SC2M4P5Z8J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.torinunna.EmotionDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		867BC01928F6F43B00F2C8EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SC2M4P5Z8J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.torinunna.EmotionDiaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmotionDiary.app/EmotionDiary";
+			};
+			name = Debug;
+		};
+		867BC01A28F6F43B00F2C8EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SC2M4P5Z8J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.torinunna.EmotionDiaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmotionDiary.app/EmotionDiary";
+			};
+			name = Release;
+		};
+		867BC01C28F6F43B00F2C8EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SC2M4P5Z8J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.torinunna.EmotionDiaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EmotionDiary;
+			};
+			name = Debug;
+		};
+		867BC01D28F6F43B00F2C8EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SC2M4P5Z8J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.torinunna.EmotionDiaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EmotionDiary;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		867BBFEC28F6F43A00F2C8EB /* Build configuration list for PBXProject "EmotionDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				867BC01328F6F43B00F2C8EB /* Debug */,
+				867BC01428F6F43B00F2C8EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		867BC01528F6F43B00F2C8EB /* Build configuration list for PBXNativeTarget "EmotionDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				867BC01628F6F43B00F2C8EB /* Debug */,
+				867BC01728F6F43B00F2C8EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		867BC01828F6F43B00F2C8EB /* Build configuration list for PBXNativeTarget "EmotionDiaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				867BC01928F6F43B00F2C8EB /* Debug */,
+				867BC01A28F6F43B00F2C8EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		867BC01B28F6F43B00F2C8EB /* Build configuration list for PBXNativeTarget "EmotionDiaryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				867BC01C28F6F43B00F2C8EB /* Debug */,
+				867BC01D28F6F43B00F2C8EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 867BBFE928F6F43A00F2C8EB /* Project object */;
+}
