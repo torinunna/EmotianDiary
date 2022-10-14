@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8620A4EB28F85ECE00A7DB2F /* MoodDiaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8620A4EA28F85ECE00A7DB2F /* MoodDiaryCell.swift */; };
 		867BBFF528F6F43A00F2C8EB /* EmotionDiaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867BBFF428F6F43A00F2C8EB /* EmotionDiaryApp.swift */; };
 		867BBFF728F6F43A00F2C8EB /* DiaryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867BBFF628F6F43A00F2C8EB /* DiaryListView.swift */; };
 		867BBFF928F6F43B00F2C8EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 867BBFF828F6F43B00F2C8EB /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8620A4EA28F85ECE00A7DB2F /* MoodDiaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodDiaryCell.swift; sourceTree = "<group>"; };
 		867BBFF128F6F43A00F2C8EB /* EmotionDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmotionDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		867BBFF428F6F43A00F2C8EB /* EmotionDiaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionDiaryApp.swift; sourceTree = "<group>"; };
 		867BBFF628F6F43A00F2C8EB /* DiaryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryListView.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				867BBFF628F6F43A00F2C8EB /* DiaryListView.swift */,
+				8620A4EA28F85ECE00A7DB2F /* MoodDiaryCell.swift */,
 			);
 			path = "Diary List";
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8620A4EB28F85ECE00A7DB2F /* MoodDiaryCell.swift in Sources */,
 				867BBFF728F6F43A00F2C8EB /* DiaryListView.swift in Sources */,
 				867BBFF528F6F43A00F2C8EB /* EmotionDiaryApp.swift in Sources */,
 				867BC03328F6F64D00F2C8EB /* MoodDiaryStorage.swift in Sources */,
