@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		861FAB1C28F9B0C4001915AA /* DiaryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861FAB1B28F9B0C4001915AA /* DiaryListViewModel.swift */; };
 		8620A4EB28F85ECE00A7DB2F /* MoodDiaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8620A4EA28F85ECE00A7DB2F /* MoodDiaryCell.swift */; };
 		867BBFF528F6F43A00F2C8EB /* EmotionDiaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867BBFF428F6F43A00F2C8EB /* EmotionDiaryApp.swift */; };
 		867BBFF728F6F43A00F2C8EB /* DiaryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867BBFF628F6F43A00F2C8EB /* DiaryListView.swift */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		861FAB1B28F9B0C4001915AA /* DiaryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryListViewModel.swift; sourceTree = "<group>"; };
 		8620A4EA28F85ECE00A7DB2F /* MoodDiaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodDiaryCell.swift; sourceTree = "<group>"; };
 		867BBFF128F6F43A00F2C8EB /* EmotionDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmotionDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		867BBFF428F6F43A00F2C8EB /* EmotionDiaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionDiaryApp.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				867BBFF628F6F43A00F2C8EB /* DiaryListView.swift */,
+				861FAB1B28F9B0C4001915AA /* DiaryListViewModel.swift */,
 				8620A4EA28F85ECE00A7DB2F /* MoodDiaryCell.swift */,
 			);
 			path = "Diary List";
@@ -332,6 +335,7 @@
 				867BC02728F6F5B300F2C8EB /* DiaryDetailsView.swift in Sources */,
 				867BC02E28F6F60B00F2C8EB /* Mood.swift in Sources */,
 				867BC03128F6F63F00F2C8EB /* Storage.swift in Sources */,
+				861FAB1C28F9B0C4001915AA /* DiaryListViewModel.swift in Sources */,
 				867BC02C28F6F5EE00F2C8EB /* MoodDiary.swift in Sources */,
 				867BC02428F6F57C00F2C8EB /* DiaryTextInputView.swift in Sources */,
 				867BC02028F6F52E00F2C8EB /* DiaryDateInputView.swift in Sources */,
