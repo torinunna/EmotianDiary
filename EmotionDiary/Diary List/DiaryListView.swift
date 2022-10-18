@@ -24,12 +24,34 @@ struct DiaryListView: View {
                             .frame(height: 50)
                     }
                 } header: {
-                    Text(key)
+                    Text(formattedSectionTitle(key))
+                        .font(.system(size: 30, weight: .black))
                 }
+                .frame(height: 60)
                
                
             }
         }
+    }
+}
+
+extension DiaryListView {
+    private func formattedSectionTitle(_ id: String) -> String {
+        let dateComponents = id
+            .components(separatedBy: "-")
+            .compactMap{ Int($0) }
+        guard let year = dateComponents.first, let month = dateComponents.last else {
+            return id
+        }
+        
+        
+        let calendar = Calendar(identifier: .gregorian)
+        let dateComponent = DateComponents(calendar: calendar, year: year, month: month)
+        let date = dateComponent.date!
+        
+        let formatter = DateFormatter()
+        formatter.dateFormat = "MMMM yyyy"
+        return formatter.string(from: date)
     }
 }
 
