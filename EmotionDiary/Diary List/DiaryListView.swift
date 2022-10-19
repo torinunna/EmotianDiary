@@ -30,7 +30,7 @@ struct DiaryListView: View {
                             .font(.system(size: 30, weight: .black))
                     }
                     .frame(height: 60)
-                   
+                    .padding()
                 }
             }
             
