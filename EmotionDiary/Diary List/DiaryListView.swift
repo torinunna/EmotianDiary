@@ -17,30 +17,43 @@ struct DiaryListView: View {
     var body: some View {
         
         NavigationView{
-            
-            ScrollView {
-                LazyVGrid(columns: layout) {
-                    ForEach(vm.keys, id:\.self) { key in Section {
-                            let items = vm.dic[key] ?? []
-                            let orderedItems = items.sorted(by: { $0.date < $1.date })
-                            ForEach(orderedItems) { item in
-                                MoodDiaryCell(diary: item)
-                                    .frame(height: 50)
+            VStack{
+                ScrollView {
+                    LazyVGrid(columns: layout) {
+                        ForEach(vm.keys, id:\.self) { key in Section {
+                                let items = vm.dic[key] ?? []
+                                let orderedItems = items.sorted(by: { $0.date < $1.date })
+                                ForEach(orderedItems) { item in
+                                    MoodDiaryCell(diary: item)
+                                        .frame(height: 50)
+                                }
+                            } header: {
+                                Text(formattedSectionTitle(key))
+                                    .font(.system(size: 30, weight: .black))
                             }
-                        } header: {
-                            Text(formattedSectionTitle(key))
-                                .font(.system(size: 30, weight: .black))
+                            .frame(height: 60)
+                            .padding()
                         }
-                        .frame(height: 60)
-                        .padding()
                     }
                 }
-                
-            }.navigationTitle("Emotion Diary")
+                HStack {
+                    Button {
+                        print("New Button Pressed")
+                    } label: {
+                       Image(systemName: "plus")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 30)
+                    }
+                    .frame(width: 80, height: 80)
+                    .foregroundColor(.white)
+                    .background(Color.pink)
+                    .cornerRadius(40)
+                }
+            }
+            .navigationTitle("Emotion Diary")
         }
         
-      
- 
     }
 }
 
