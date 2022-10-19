@@ -16,25 +16,30 @@ struct DiaryListView: View {
     
     var body: some View {
         
-        ScrollView {
-            LazyVGrid(columns: layout) {
-                ForEach(vm.keys, id:\.self) { key in Section {
-                        let items = vm.dic[key] ?? []
-                        let orderedItems = items.sorted(by: { $0.date < $1.date })
-                        ForEach(orderedItems) { item in
-                            MoodDiaryCell(diary: item)
-                                .frame(height: 50)
-                        }
-                    } header: {
-                        Text(formattedSectionTitle(key))
-                            .font(.system(size: 30, weight: .black))
-                    }
-                    .frame(height: 60)
-                    .padding()
-                }
-            }
+        NavigationView{
             
+            ScrollView {
+                LazyVGrid(columns: layout) {
+                    ForEach(vm.keys, id:\.self) { key in Section {
+                            let items = vm.dic[key] ?? []
+                            let orderedItems = items.sorted(by: { $0.date < $1.date })
+                            ForEach(orderedItems) { item in
+                                MoodDiaryCell(diary: item)
+                                    .frame(height: 50)
+                            }
+                        } header: {
+                            Text(formattedSectionTitle(key))
+                                .font(.system(size: 30, weight: .black))
+                        }
+                        .frame(height: 60)
+                        .padding()
+                    }
+                }
+                
+            }.navigationTitle("Emotion Diary")
         }
+        
+      
  
     }
 }
