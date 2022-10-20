@@ -12,6 +12,7 @@ import Combine
 final class DiaryViewModel: ObservableObject {
     
     @Published var date: Date = Date()
+    @Published var mood: Mood = .great
     @Published var isPresented: Binding<Bool>
     
     var subscriptions = Set<AnyCancellable>()
