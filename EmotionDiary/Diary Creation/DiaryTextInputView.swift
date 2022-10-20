@@ -8,13 +8,20 @@
 import SwiftUI
 
 struct DiaryTextInputView: View {
+    
+    @ObservedObject var vm: DiaryViewModel
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            TextEditor(text: $vm.text)
+                .border(.gray.opacity(0.2), width: 2)
+        }
+        .padding()
     }
 }
 
 struct DiaryTextInputView_Previews: PreviewProvider {
     static var previews: some View {
-        DiaryTextInputView()
+        DiaryTextInputView(vm: DiaryViewModel(isPresented: .constant(false)))
     }
 }

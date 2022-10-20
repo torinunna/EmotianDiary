@@ -15,6 +15,7 @@ final class DiaryViewModel: ObservableObject {
     
     @Published var date: Date = Date()
     @Published var mood: Mood = .great
+    @Published var text: String = ""
     @Published var isPresented: Binding<Bool>
     
     var subscriptions = Set<AnyCancellable>()
@@ -31,8 +32,14 @@ final class DiaryViewModel: ObservableObject {
             print("---> selected: \(mood)")
             self.update(mood: mood)
         }.store(in: &subscriptions)
+        
+        $text.sink { text in
+            print("---> selected: \(text)")
+            self.update(text: text)
+        }.store(in: &subscriptions)
+        
     }
-    
+
     private func update(date: Date) {
         let formatter = DateFormatter()
         formatter.dateFormat = "yyyy-MM-dd hh:mm:ss"
@@ -41,5 +48,9 @@ final class DiaryViewModel: ObservableObject {
     
     private func update(mood: Mood) {
         self.diary.mood = mood
+    }
+    
+    private func update(text: String) {
+        self.diary.text = text
     }
 }
