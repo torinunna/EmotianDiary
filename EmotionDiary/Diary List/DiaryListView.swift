@@ -60,8 +60,11 @@ struct DiaryListView: View {
             .navigationTitle("Emotion Diary")
         }
         .sheet(isPresented: $isPresenting) {
-            let vm = DiaryViewModel(isPresented: $isPresenting)
+            let vm = DiaryViewModel(isPresented: $isPresenting, diaries: $vm.list)
             DiaryDateInputView(vm: vm)
+        }
+        .onAppear {
+            vm.fetch()
         }
     }
 }
@@ -87,7 +90,7 @@ extension DiaryListView {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        DiaryListView(vm: DiaryListViewModel())
+        DiaryListView(vm: DiaryListViewModel(storage: MoodDiaryStorage()))
     }
 }
 
