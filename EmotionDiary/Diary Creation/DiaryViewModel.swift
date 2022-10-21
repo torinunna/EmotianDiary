@@ -12,7 +12,6 @@ import Combine
 final class DiaryViewModel: ObservableObject {
     
     @Published var diaries: Binding<[MoodDiary]>
-    @Published var list: [MoodDiary] = []
     @Published var diary: MoodDiary = MoodDiary(date: "", text: "", mood: .great)
     
     @Published var date: Date = Date()
