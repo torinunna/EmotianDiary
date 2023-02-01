@@ -13,7 +13,7 @@ final class MonthlyIDGenerator {
         
         let formatter = DateFormatter()
         formatter.dateFormat = "yyyy-MM-dd hh:mm:ss"
-        let date = formatter.date(from: dateString)!
+        guard let date = formatter.date(from: dateString) else { return ""}
         
         let calendar = Calendar(identifier: .gregorian)
         let dateComponents = calendar.dateComponents([.year, .month], from: date)

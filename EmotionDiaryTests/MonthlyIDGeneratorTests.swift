@@ -39,4 +39,15 @@ class MonthlyIDGeneratorTests: XCTestCase {
         
     }
     
+    func test_MIDGenerator_whenMIDrequested_withInvalidDateMoodDiary() {
+        let sut = MonthlyIDGenerator()
+        let diary1 =  MoodDiary(date: "", text: "My Diary", mood: .good)
+        
+        let id1 = sut.monthlyID(with: diary1)
+       
+        let expected1 = ""
+        XCTAssertEqual(id1, expected1)
+
+    }
+    
 }
